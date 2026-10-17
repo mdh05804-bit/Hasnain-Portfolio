@@ -130,3 +130,13 @@ a { color: inherit; }
   .project-art { min-height: 135px; }
   .footer-inner { flex-direction: column; }
 }
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  margin-top: 20px;
+  display: block;
+}
